@@ -1,0 +1,38 @@
+@import url("stylesheets/wsgr.css");
+
+body {
+  background: black url(../images/body-background.jpg) center top no-repeat;
+  color: white;
+  font: normal normal normal 12px/18px Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  margin-top: 36px;
+}
+
+body #content {
+  background: transparent url(../images/content-background.png) left top no-repeat;
+  height: 162px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 460px;
+}
+
+ul {
+  height: 162px;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+  margin-right: 16px;
+}
+
+body #footer {
+  bottom: 10px;
+  left: 45%;
+  position: absolute;
+}
+
+a {
+  color: white;
+}
