@@ -1,4 +1,4 @@
-@import url("stylesheets/wsgr.css");
+@import url("./wsgr.css");
 
 body {
   background: black url(../images/body-background.jpg) center top no-repeat;
@@ -8,16 +8,29 @@ body {
 }
 
 body #content {
-  background: transparent url(../images/content-background.png) left top no-repeat;
-  height: 162px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  overflow: auto;
   padding: 10px 20px;
   margin: 0 auto;
-  width: 460px;
+  width: 512px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.75em 0;
+}
+
+p {
+  margin: 1em 0;
 }
 
 ul {
-  height: 162px;
-  margin: 0;
+  margin: 0 0 1.0em 0;
+  overflow: auto;
   padding: 0;
 }
 
@@ -25,6 +38,10 @@ ul li {
   float: left;
   list-style: none;
   margin-right: 16px;
+}
+
+ul li:last-child {
+  margin-right: 0;
 }
 
 body #footer {
