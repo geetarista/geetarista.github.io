@@ -1,0 +1,15 @@
+<section id="footer">
+  <p>
+  {% if site.links %}
+    {% for link in site.links %}
+      <a href="{{ link.url }}">{{ link.name | downcase }}</a> ::
+    {% endfor %}
+  {% else %}
+    {% assign pages = (site.pages | where: 'layout', 'page') %}
+    {% for page in pages %}
+      <a href="{{ page.url }}">{{ page.title | downcase }}</a>::
+    {% endfor %}
+  {% endif %}
+    <a href="/atom.xml">feed</a>
+  </p>
+</section>

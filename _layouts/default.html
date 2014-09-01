@@ -1,0 +1,16 @@
+<!DOCTYPE HTML> 
+<html lang=en>
+  {% include head.html %}
+  <body>
+    <div id="container">
+      <section id="content">
+        <div class="post">
+          <h2>
+            <a href="/">{{ site.title | downcase }}</a>
+            {% if (page and page.title != 'Home') or site.posts.size > 0 %}:{% endif %}
+          {{ content }}
+      </section>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

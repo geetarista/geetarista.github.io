@@ -1,0 +1,28 @@
+title:            Robby Colvin
+tagline:          My home in the tubes
+# description:      This is where I try to collect my thoughts and write about things that interest me.
+domain:           robbycolvin.com
+baseurl:          /
+# for search plugin
+# url:              http://robbycolvin.com
+url:              http://0.0.0.0:4000
+author:
+  name:           Robby Colvin
+  url:            http://robbycolvin.com
+paginate:         5
+permalink:        /:title/
+highlighter:      pygments
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
+sass:
+  style: :compressed
+
+links:
+  - name: about
+    url: /about
+  - name: archive
+    url: /archive
+  - name: code
+    url: https://github.com/geetarista
