@@ -65,10 +65,11 @@ bounds = finder.desktop.window.bounds()
 width = bounds["width"]
 height = bounds["height"]
 query = "{query}" // the query variable from Alfred
+
 boundsMap = {
   "f":  {"x":0, "y":0, "width":width, "height":height},
-  "m":  {"x":width/8, "y":height/8,
-         "width":width/1.125, "height":height/1.125},
+  "m":  {"x":width/8, "y":height/8, 
+         "width":width/1.3, "height":height/1.3},
   "tr": {"x":width/2, "y":0, "width":width, "height":height/2},
   "tl": {"x":0, "y":0, "width":width/2, "height":height/2},
   "th": {"x":0, "y":0, "width":width, "height":height/2},
@@ -76,8 +77,8 @@ boundsMap = {
   "l":  {"x":0, "y":0, "width":width/2, "height":height},
   "br": {"x":width/2, "y":height/2, "width":width, "height":height},
   "bl": {"x":0, "y":height/2, "width":width/2, "height":height},
-  "bh": {"x":0, "y":height/2, "width":width, "height":height},
-  "h":  {"x":width/4, "y":0, "width":width/1.25, "height":height},
+  "bh": {"x":0, "y":height/2, "width":width, "height":height/2},
+  "h":  {"x":width/4, "y":0, "width":width/2, "height":height},
 }
 
 SystemEvents = Application("System Events")
