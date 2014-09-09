@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript automation in OS X Yosemite
-date: 2014-08-30 00:00:00
+date: 2014-09-09 00:00:00
 ---
 
 In Mac OS X Yosemite, the automation tools incorporate a new scripting language: JavaScript. Since I have some AppleScript that I use with [Alfred](http://www.alfredapp.com/) for resizing windows, I decided to give it a try.
@@ -17,13 +17,10 @@ tell application "Finder"
     set height to item 4 of b
 end tell
  
---- I'm omitting the continuation character since
---- highlight breaks it
-set name to name of
-  (info for
-    (path to frontmost application))
---- the query variable from Alfred
-set q to "{query}"
+set name to name of ¬
+  (info for (path to frontmost application))
+
+set q to "{query}" --- the query variable from Alfred
  
 tell application name
     activate
@@ -57,7 +54,7 @@ end tell
 set bounds of first window to nb
 {% endhighlight %}
 
-And here is the new version in JavaScript:
+And here is the same script rewritten in JavaScript:
 
 {% highlight javascript %}
 finder = Application("Finder")
@@ -87,8 +84,8 @@ app = Application(appName)
 app.windows[0].bounds = boundsMap[query]
 {% endhighlight %}
 
-There are a couple things to note here. First, the JavaScript used is not standard. `var`, `;`, etc. are not required and the fancy syntax, e.g. the `.whose({ frontmost: true }` filter, is part of the language. Also, the API for interacting with objects is different from traditional JavaScript. For example, properties are accessed as methods while setters still use the `=` assignmnet.
+There are a couple things to note here. First, the JavaScript used is not standard. Some syntax is not required (`var`, `;`), while other syntax and globals are built in to the language: `.whose({ frontmost: true }`, `console.log`, `$`, etc. The API for interacting with objects is also different from traditional JavaScript. For example, properties are accessed like methods, e.g. `.name()`, while setters still use the `=` assignment. Element arrays are an exception—they can be accessed like regular javascript properties (`Mail.windows`), but they also have syntactic sugar as well: `Mail.windows.byName('New Message')` or `Mail.windows.byId(412)`. There is also a a global object called `ObjectSpecifier` which is used to identify an object or property's class: `ObjectSpecifier.classOf(Mail.inbox)`.
 
-Second, the script performs the exact same function, but the JavaScript is easier to read and understand. I believe there are two reasons for this: the syntax is clear and the use of a data structure is intuitive. With AppleScript, it took me some time to peruse the documentation to even understand how to create a hash/map during the conversion.
+The second thing to note is the script performs the exact same function, but the JavaScript is easier to read and understand, in my opinion. I believe there are two reasons for this: the syntax is clear and the use of a data structure is intuitive. With AppleScript, it took me some time to peruse the documentation to even understand how to create a hash/map as a comparison.
 
-If you'd like to learn more about JavaScript and automation in Yosemite, you can [view the current (and only so far) documentation](https://developer.apple.com/library/prerelease/mac/releasenotes/interapplicationcommunication/rn-javascriptforautomation/index.html).
+I'm interested in seeing whether this becomes the preferred option for automation in Mac OS or if it is just an alternative. For now you can learn more about JavaScript automation in Yosemite at the [current (and so far, only) documentation](https://developer.apple.com/library/prerelease/mac/releasenotes/interapplicationcommunication/rn-javascriptforautomation/index.html).
