@@ -73,7 +73,7 @@ boundsMap = {
   "tr": {"x":width/2, "y":0, "width":width, "height":height/2},
   "tl": {"x":0, "y":0, "width":width/2, "height":height/2},
   "th": {"x":0, "y":0, "width":width, "height":height/2},
-  "r":  {"x":width/2, "y":0, "width":width, "height":height},
+  "r":  {"x":width/2, "y":0, "width":width/2, "height":height},
   "l":  {"x":0, "y":0, "width":width/2, "height":height},
   "br": {"x":width/2, "y":height/2, "width":width, "height":height},
   "bl": {"x":0, "y":height/2, "width":width/2, "height":height},
