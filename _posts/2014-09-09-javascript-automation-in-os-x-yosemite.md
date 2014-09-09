@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript automation in OS X Yosemite
-date: 2014-09-09 00:00:00
+date: 2014-09-09 10:00:00
 ---
 
 In Mac OS X Yosemite, the automation tools incorporate a new scripting language: JavaScript. Since I have some AppleScript that I use with [Alfred](http://www.alfredapp.com/) for resizing windows, I decided to give it a try.
