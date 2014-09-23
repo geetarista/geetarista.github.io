@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Google App Engine http.DefaultTransport
-date: 2014-09-23 00:00:00
+date: 2014-09-23 10:00:00
 meta_description: Learn how to replace http.DefaultTransport and http.DefaultClient in Google App Engine
 ---
 
-While working on a [small project](https://github.com/geetarista/ImgurPopular) recently that utilizes [Go](http://golang.org) on Google's [App Engine](https://developers.google.com/appengine/), I ran into the following error:
+While working on a [small project](https://github.com/geetarista/ImgurPopular) recently that utilizes [Go](http://golang.org) and Google's [App Engine](https://developers.google.com/appengine/), I ran into the following error:
 
 > http.DefaultTransport and http.DefaultClient are not available in App Engine. See https://developers.google.com/appengine/docs/go/urlfetch/overview
 
