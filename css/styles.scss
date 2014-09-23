@@ -9,6 +9,18 @@ body {
   font: 20px 'Hoefler Text', 'Times New Roman', Times, serif;
   color: #333;
   line-height: 30px;
+
+  &.center {
+    #container {
+      section#content {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+#container {
+  width: 100%;
 }
 
 h1 {
