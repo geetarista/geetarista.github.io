@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/geetarista
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://robbycolvin.com
+  * I am geetarista (https://keybase.io/geetarista) on keybase.
+  * I have a public key with fingerprint 91D2 4370 77EC E149 0E8C  1734 8392 F906 5C07 199D
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "91d2437077ece1490e8c17348392f9065c07199d",
+            "host": "keybase.io",
+            "key_id": "8392f9065c07199d",
+            "uid": "fcc67464ac31ef353ed27f9d9e9aa800",
+            "username": "geetarista"
+        },
+        "service": {
+            "hostname": "robbycolvin.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1413398520,
+    "expire_in": 157680000,
+    "prev": "bcd45233604eaab9408016d4847938d5fb6450b45e3f773ef66bd8c54962c4df",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMHpAnicbZFdSBRRFMfX0qQ1wZewokKnzJfFndm587VFhZXaixFZ+uCyzNx7Z53U
+mW1mdnPRTba0LJOIait7iSWC7EMqCB+q1VD6sC+oByVKe0hKqCdFax/sjthbT5f7
+P7/zP//DGc5f7nJneYc3lZSXqlbW6OBcxFWzPT3fSikGilH+VqoRLz6qpoewGTY1
+3ab8lMQgH2AFWhAwxAyQaCxCRmCByEo+VaJ5DtICI0mI8lANhuV0EBtFtnCZZhCN
+fIIaIup/+MhiQYWQFwAPZMgyWGU5FiOfoEpIwpIsizTtgBY2dbkZEzqEsS2bmmXL
+VNxDET2qQeykdoYvMaahKDFoNEU1vQwazcQgbBq2QRRSbLDtsOV3mu1Y2KGPYiW4
+5BNUNB2R7UlHFJuWZuiUnyEktDXHmAEMy0oi56M9FG4JayYOag7BCTzJSdPOHBwl
+lgpEgPOxLE8DLMuKBGiRZngERCBIrIg4VeEBRyuAw6wqCCxWeV5BIuSAxPsgQCrl
+bHZENyg/T2LKIWJpaSFdtiMmpuLPBuuzXVlu14qcZc79XO6VBf+umpvIXYB1qR96
+UeBkpTB76+epqcLfVdGPPT8OzGSPv2sYLaWsivnAWmXPi4Fkf/jOk6qB6rYWfClU
+LXkix8/eHL+29dj+u5/XvU/25T80mcFE7Hkkk0qVjUxuuerJOX35aVoeyp57tSFZ
+PJkXwIErX1yvh7qL+XJ5d9P9zY8OId+qNWdQe+bCVLSn6sGnVnoBBNbHx/qtfR8m
+AudrdooXOzcWafPubX9qk71K9dC53o5d33fsHetqq8h0Fo4Md3TcqBNC5Xbirf/g
+NEp4ldxAQe/qkop4dDZ+b6L7jTfe9Yt57J08cT318uu3TN90GgZr89rzG2+7Zg+P
+zFQWJ1G6/i83TxR+
+=yFtp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/geetarista
+
+==================================================================
