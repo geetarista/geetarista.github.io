@@ -13,3 +13,5 @@ You can contact via the following methods, in order of preference:
 * [Google+](https://plus.google.com/+RobbyColvin)
 * [LinkedIn](http://www.linkedin.com/in/robbycolvin/)
 * [Facebook](https://www.facebook.com/robbycolvin)
+
+If necessary, you can contact me via PGP on [Keybase](https://keybase.io/geetarista).
