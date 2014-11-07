@@ -10,6 +10,7 @@ You can contact via the following methods, in order of preference:
 
 * [Email](mailto:&#103;&#101;&#101;&#116;&#97;&#114;&#105;&#115;&#116;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#103;&#101;&#101;&#116;&#97;&#114;&#105;&#115;&#116;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;)
 * [Twitter](https://twitter.com/geetarista)
+* [Instagram](http://instagram.com/geetarista)
 * [Google+](https://plus.google.com/+RobbyColvin)
 * [LinkedIn](http://www.linkedin.com/in/robbycolvin/)
 * [Facebook](https://www.facebook.com/robbycolvin)
