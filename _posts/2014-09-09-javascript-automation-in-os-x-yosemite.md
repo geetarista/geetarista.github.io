@@ -25,10 +25,10 @@ set q to "{query}" --- the query variable from Alfred
 tell application name
     activate
     if q is "f" then
-        set nb to
+        set nb to ¬
           {0, 0, width, height}
     else if q is "m" then
-        set nb to
+        set nb to ¬
           {width/8, height/8, width/1.125, height/1.125}
     else if q is "tr" then
         set nb to {width/2, 0, width, height/2}
