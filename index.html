@@ -3,41 +3,19 @@ layout: default
 title: Home
 ---
 
-{% if site.posts.size > 0 %}
-  {% assign post = paginator.posts.first %}
-  <a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title | downcase }}">
-    <b>{{ post.title | downcase }}</b>
-  </a>
-{% endif %}
-</h2>
+<h2>Recent</h2>
 
-<div class="entry">
-  {% if site.posts.size > 0 %}
-  {{ paginator.posts.first.content }}
-  {% else %}
-  <p>There are no posts yet.</p>
-  {% endif %}
-</div>
-
-<h1>
-  <a href="/archive/">all posts &raquo;</a>
-</h1>
-
-{% if site.posts.size > site.paginate %}
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
-{% endif %}
+<section id="recent">
+{% for post in site.posts limit:10 %}
+  <div>
+    <span>{{ post.date | date: '%d %m %Y' }}</span>
+    <br />
+    <a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{ post.title }}</a>
+    <br />
+    {{ post.excerpt }}
+  </div>
+{% endfor %}
+  <div>
+    <a href="/archive/">all posts &raquo;</a>
+  </div>
+</section>

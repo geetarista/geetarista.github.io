@@ -2,15 +2,22 @@
 <html lang=en>
   {% include head.html %}
   <body>
-    <div id="container">
-      <section id="content">
-        <div class="post">
-          <h2>
-            <a href="/">{{ site.title | downcase }}</a>
-            {% if (page and page.title != 'Home') or site.posts.size > 0 %}:{% endif %}
-          {{ content }}
-      </section>
-      {% include footer.html %}
-    </div>
+    <nav>
+      <a href="/about">About</a>
+    </nav>
+    <header>
+      <h1><a href="/">{{ site.title | downcase }}</a></h1>
+      <a class="fa fa-github-alt" href="https://github.com/geetarista"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/geetarista"></a>
+      <a class="fa fa-envelope" href="mailto:&#103;&#101;&#101;&#116;&#97;&#114;&#105;&#115;&#116;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"></a>
+      <a class="fa fa-instagram" href="https://instagram.com/geetarista"></a>
+      <a class="fa fa-linkedin" href="https://www.linkedin.com/in/robbycolvin"></a>
+      <a class="fa fa-rss" href="/atom.xml"></a>
+      <a href="https://keybase.io/geetarista/key.asc" style="font-family: monospace">pgp</a>
+    </header>
+    <section>
+      {{ content }}
+    </section>
+    {% include footer.html %}
   </body>
 </html>
