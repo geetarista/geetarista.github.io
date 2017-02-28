@@ -6,23 +6,18 @@ I hereby claim:
 
   * I am an admin of https://robbycolvin.com
   * I am geetarista (https://keybase.io/geetarista) on keybase.
-  * I have a public key with fingerprint 91D2 4370 77EC E149 0E8C  1734 8392 F906 5C07 199D
+  * I have a public key ASCMPjd6ds3jrN2soBh2ncpUuchmO_I5Hcqikex4kD40Ego
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "91d2437077ece1490e8c17348392f9065c07199d",
+            "eldest_kid": "01208c3e377a76cde3acddaca018769dca54b9c8663bf2391dcaa291ec78903e34120a",
             "host": "keybase.io",
-            "key_id": "8392f9065c07199d",
+            "kid": "01208c3e377a76cde3acddaca018769dca54b9c8663bf2391dcaa291ec78903e34120a",
             "uid": "fcc67464ac31ef353ed27f9d9e9aa800",
             "username": "geetarista"
-        },
-        "revoke": {
-            "sig_ids": [
-                "15f66e68ae86fb9fab29e45a70ec14880dcc3c875d1c727ec8fdbba075b38ab00f"
-            ]
         },
         "service": {
             "hostname": "robbycolvin.com",
@@ -31,37 +26,25 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1413398821,
-    "expire_in": 157680000,
-    "prev": "8bc45cdcaa6073b5ea249382064b76637a89a17f6f80cc985b2c39015f2f3679",
-    "seqno": 7,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486595296,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486595285,
+        "hash": "b68750d9980ef63f58e6ba35b3376f80b7370c552dde0b54a20f84ccd341ea8422a9f9ed4975232cf403a293810421b3eda181a1c80ca7ee1ea571f7aba586ea",
+        "seqno": 848908
+    },
+    "prev": "68a8abad72e8f4a3947fb6ac9b59597f0e247decc8fa624499461e49dd52dfdb",
+    "seqno": 33,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v1.1.3
-Comment: https://keybase.io/crypto
-
-yMIpAnicbVJbSBVBGD7mhdKEeumCkjBiPnTQ2dvMzuEk4SkkiIqKIDJOs7Ozx808
-e9pdT6loZEX2UJFdlEMYvQQFpS8VkVGJ2f0OZSGFkA8VFIZdLIJmxd56Gub/v//7
-vv/jHyzMDuVnVQ6WllWXW17Wg1vrG0Mbqm6VtQDDMZtApAXU86nHspMJ7qZcO+mD
-CCCSKasKhhhzxiWVQK4zCSuqrhDZIhBpDGKJEBOEQZ3jBROCxqAer7AdUROfuG2K
-6n/wjVMNizGEVaRSpkjcUjSFmzK2iEk4oVSHMAB63E3SBi7QCc596tqeT0FrGLg8
-7dTzwLRnJ4SOByKbgaRZCHGkU64jyyAWNWTCVY1iyJmk6jo0GVOYjjVTYlgWa+mW
-aRgUYs1QdGpAaIEtgltopm02RR4sNq3vOobRxJztaTtZwZwGYS7lOr4jKqJZ5/sp
-LxIY85tSAXonN+LTPHHDTpoiWTGR5q5nO0kQkQSS+XZALKmSohBdl6Uw4LtStsvj
-doDQMBIZQBjo8HSQo8FUjZmMUgSxYmicyipRdBki1cAIKZjqhErYQpYOGSO6ZshM
-IVCEIlsKwgQEm+1IOiCChU2aEJQiuyT1G10OWgdu1uaEsvJDebkzgtsI5c+a8+9i
-DvyZGTq/16/J7I/G+nZvfaStPvF25bL2VKwzN7P8Kj1a5D+aF53Mm7wzFvp5/7a1
-9Pu1wt/oXk18+eznueWfv54dq4znrugdX1fyzLOvd3ehzMG+97F5775cHjnXgXaP
-v30dqvodn9tfm3EXP2WHIz31D/DEaGfDVu8Hu3JjQSb7VX/Jk0FwafzLkTd7R0c/
-TH5qY2Pd2durY37rqv3RyN3y+WubyzeaF84P9cxoDcNo77e2h80j+z4uzCsYi/1a
-03VhKHq8+eTEttNPwiUvql+MtL9uTxSbLwsGMhu6coYXjc736pqH3U1f95Q2dHrH
-nqrp6x0bi07ROxfPLCHFjwv7hw8VZf4Ckpkwiw==
-=QbgU
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjD43enbN46zdrKAYdp3KVLnIZjvyOR3KopHseJA+NBIKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOGMzZTM3N2E3NmNkZTNhY2RkYWNhMDE4NzY5ZGNhNTRiOWM4NjYzYmYyMzkxZGNhYTI5MWVjNzg5MDNlMzQxMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOGMzZTM3N2E3NmNkZTNhY2RkYWNhMDE4NzY5ZGNhNTRiOWM4NjYzYmYyMzkxZGNhYTI5MWVjNzg5MDNlMzQxMjBhIiwidWlkIjoiZmNjNjc0NjRhYzMxZWYzNTNlZDI3ZjlkOWU5YWE4MDAiLCJ1c2VybmFtZSI6ImdlZXRhcmlzdGEifSwic2VydmljZSI6eyJob3N0bmFtZSI6InJvYmJ5Y29sdmluLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg2NTk1Mjk2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODY1OTUyODUsImhhc2giOiJiNjg3NTBkOTk4MGVmNjNmNThlNmJhMzViMzM3NmY4MGI3MzcwYzU1MmRkZTBiNTRhMjBmODRjY2QzNDFlYTg0MjJhOWY5ZWQ0OTc1MjMyY2Y0MDNhMjkzODEwNDIxYjNlZGExODFhMWM4MGNhN2VlMWVhNTcxZjdhYmE1ODZlYSIsInNlcW5vIjo4NDg5MDh9LCJwcmV2IjoiNjhhOGFiYWQ3MmU4ZjRhMzk0N2ZiNmFjOWI1OTU5N2YwZTI0N2RlY2M4ZmE2MjQ0OTk0NjFlNDlkZDUyZGZkYiIsInNlcW5vIjozMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDNncUFgFiuoTLYwqe1xhEVtgV7KRjFwoh/dw7a81VVJDUI32fB3ztyio636/qGcfDQpj+fP2O01hRu2gO6tk0LqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg6odiVO23lf1KWu+RYyvCC2Dwd0DrhZ/Ty406504rQdujdGFnzQICp3ZlcnNpb24B
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
