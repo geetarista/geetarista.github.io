@@ -9,11 +9,6 @@ author:
   url:            http://robbycolvin.com
 paginate:         5
 permalink:        /:title/
-highlighter:      pygments
-markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
 sass:
   style: :compressed
 
@@ -24,3 +19,6 @@ links:
     url: /archive
   - name: code
     url: https://github.com/geetarista
+
+plugins:
+  - jekyll-paginate
