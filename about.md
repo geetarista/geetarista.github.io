@@ -4,4 +4,4 @@ permalink: about/
 title: About
 ---
 
-I am a software engineer living in the San Francisco Bay Area.
+I am a software engineer, more to come.

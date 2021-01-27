@@ -9,4 +9,8 @@ serve:
 		--verbose \
 		--watch
 
-.PHONY: serve
+version:
+	@echo `ruby --version`
+	@echo `bundle exec jekyll --version`
+
+.PHONY: serve, version
